@@ -1,0 +1,110 @@
+.open {
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.openTop,
+.openMiddle,
+.openBottom {
+    display: block;
+    width: 40px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #00FF99;
+    position: absolute;
+    opacity: 1; 
+    transition: all 0.5s;
+}
+
+/* Posições iniciais */
+.openTop {
+    top: 0;
+    left: 0;
+    width: 50%;
+    transform: rotate(-45deg); 
+}
+
+.openMiddle {
+    top: 40%;
+    left: 0;
+    transform: rotate(-45deg); 
+}
+
+.openBottom {
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    transform: rotate(-45deg); 
+}
+
+/* Animação no hover */
+.open:hover .openTop {
+    opacity: 0.4;
+    transform: translateY(1000px);
+}
+
+.open:hover .openMiddle {
+    opacity: 0.4;
+    transform: translateY(10px);
+    top: 10px;
+}
+
+.open:hover .openBottom {
+    opacity: 0.4;
+    transform: translateY(-100px);
+}
+
+.close {
+    display: inline-block;
+    position: relative;
+    width: 43px;
+    height: 40px;
+}
+
+.closeLeft,
+.closeRight {
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #00FF99;
+    position: absolute;
+}
+
+.closeLeft {
+    transform: rotate(-45deg);
+}
+
+.closeRight {
+    transform: rotate(45deg);
+}
+.close:hover .closeLeft{
+    transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    transform: translateX(100px) translateY(-100px) rotate(-45deg);
+}
+.close:hover .closeRight{
+    transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    transform: translateX(-100px) translateY(-100px) rotate(45deg);
+}
+
+
+.menu:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 18px;
+    height: 4px;
+    opacity: 0;
+    background-color: #222222;
+    transform: translateX(100px);
+    transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+}
+.menu:hover:before{
+    content: "";
+    transform: translateX(0px);
+    opacity: 1;
+}
