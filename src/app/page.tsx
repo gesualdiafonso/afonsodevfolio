@@ -23,7 +23,7 @@ export default function Home() {
       <div className={styles.modularGrid}>
         <div className={styles.content}>
           <h1>Afonso Arruda Gesualdi</h1>
-          <p>Design, Brand & Software</p>
+          <p>Full-Stack Engineer, Desing & Digital Marketing</p>
         </div>
       </div>
     </main>
