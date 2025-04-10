@@ -5,6 +5,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { JSX } from "react";
 
 import Container from "@/components/container/index";
 import { ProjectsProp } from "@/utils/data/projectData/projects";

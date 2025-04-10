@@ -37,8 +37,6 @@ export const metadata: Metadata = {
           alt: "Afonso Gesualdi - Full-stack Engineer",
         }
     ],
-    loclale: "en_US",
-    type: "website",
   },
   metadataBase: new URL("https://afonsodev.vercel.app"),
   robots: {

@@ -42,33 +42,34 @@ export default function Header() {
                             </div>
                             {/* Body Menu Mobile */}
                             <div className="flex flex-col items-center justify-center h-full">
-                                <ul className="flex flex-col gap-5 md:gap-10 text-2xl md:text-4xl text-left p-4">
-                                    <li className="hover:font-bold" >
-                                        <Link href="/" className="relative menu">
-                                            Home
-                                        </Link>
-                                    </li>
-                                    <li className="hover:font-bold">
-                                        <Link href="/about" className="relative menu">
-                                            About
-                                        </Link>
-                                    </li>
-                                    <li className="hover:font-bold">
-                                        <Link href="/about/education" className="relative menu">
-                                            Education
-                                        </Link>
-                                    </li>
-                                    <li className="hover:font-bold">
-                                        <Link href="/projects" className="relative menu">
-                                            Projects
-                                        </Link>
-                                    </li>
-                                    <li className="hover:font-bold">
-                                        <Link href="/contact" className="relative menu">
-                                            Contact
-                                        </Link>
-                                    </li>
+                            <ul className="flex flex-col gap-5 md:gap-10 text-2xl md:text-4xl text-left p-4">
+                                <li className="hover:font-bold">
+                                    <Link href="/" onClick={toggleMenu} className="relative menu">
+                                    Home
+                                    </Link>
+                                </li>
+                                <li className="hover:font-bold">
+                                    <Link href="/about" onClick={toggleMenu} className="relative menu">
+                                    About
+                                    </Link>
+                                </li>
+                                <li className="hover:font-bold">
+                                    <Link href="/about/education" onClick={toggleMenu} className="relative menu">
+                                    Education
+                                    </Link>
+                                </li>
+                                <li className="hover:font-bold">
+                                    <Link href="/projects" onClick={toggleMenu} className="relative menu">
+                                    Projects
+                                    </Link>
+                                </li>
+                                <li className="hover:font-bold">
+                                    <Link href="/contact" onClick={toggleMenu} className="relative menu">
+                                    Contact
+                                    </Link>
+                                </li>
                                 </ul>
+
                             </div>
                         </div>
                     )}

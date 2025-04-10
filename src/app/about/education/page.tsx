@@ -99,7 +99,7 @@ export default function Education() {
                                         alt={item.title} 
                                         width={100} 
                                         height={100} 
-                                        className=""
+                                        className="hidden md:block"
                                     />
                                 </div>
                             </div>
@@ -110,7 +110,7 @@ export default function Education() {
                     ))}
                     </div>
                     <div className="bg-[#8a2be2] rounded-full py-2 px-8 timeline-item border-2 border-[#fffafa]">
-                        <p className="text-white text-xl lg:text-3xl">Para ver minhas certificações, entre em meu perfil do <a href="https://www.linkedin.com/in/gabriel-santos-b70000200/" target="_blank" className="text-[#00FFFF] hover:text-[#8a2be2] hover:underline hover:bg-[#00FFFF] hover:rounded-full hover:py-1 hover:px-4 transition-all duration-300 font-bold hover:font-normal ">Linkedin</a></p>
+                        <p className="text-white text-xl lg:text-3xl">To see my certifications, visit my <a href="https://www.linkedin.com/in/gabriel-santos-b70000200/" target="_blank" className="text-[#00FFFF] hover:text-[#8a2be2] hover:underline hover:bg-[#00FFFF] hover:rounded-full hover:py-1 hover:px-4 transition-all duration-300 font-bold hover:font-normal ">Linkedin</a> profile</p>
                     </div>
                 </div>
             </Container>

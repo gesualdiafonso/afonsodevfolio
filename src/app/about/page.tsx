@@ -1,6 +1,7 @@
 import Container from "@/components/container/index"
 import CardProfile from "./components/cardProfile/index"
 import { FaCloudDownloadAlt } from "react-icons/fa"
+import { IoMdArrowDropright } from "react-icons/io";
 import Link from "next/link"
 
 export default function About() {
@@ -51,22 +52,22 @@ export default function About() {
                         </button>
                     </a>
                 </div>
-                <div className="text-white flex flex-col md:flex-row justify-center items-center my-10 gap-40 mx-20">
+                <div className="text-white flex flex-col md:flex-row justify-center items-center my-10 gap-10 lg:gap-40 lg:mx-20">
                     <div className="w-full">
-                        <h2 className="text-2xl lg:text-3xl font-bold italic">What are My Motivations?</h2>
+                        <h2 className="text-3xl lg:text-4xl font-bold italic">What are My Motivations?</h2>
                         <p className="mt-4 lg:text-2xl">
                             I seek to deepen my knowledge in Artificial Intelligence, software development, and user experience, applying a strategic approach to connect brands and people in the digital world.
                         </p>
                     </div>
                     <div className="w-full">
-                        <h2 className="text-2xl lg:text-3xl font-bold italic">My Skills</h2>
-                        <ul className="mt-2 lg:text-2xl">
-                            <li>Analytical Thinking</li>
-                            <li>Adaptability</li>
-                            <li>Efective Communication</li>
-                            <li>Creativity</li>
-                            <li>Leadership and Teamwork</li>
-                            <li>Time Management</li>
+                        <h2 className="text-3xl lg:text-4xl font-bold italic">My Skills</h2>
+                        <ul className="mt-2 text-xl lg:text-2xl">
+                            <li className="flex my-2 justify-content-center align-items-center"><IoMdArrowDropright color="#00FFFF" size={24}/> Analytical Thinking</li>
+                            <li className="flex my-2 justify-content-center align-items-center"><IoMdArrowDropright color="#00FFFF" size={24}/> Adaptability</li>
+                            <li className="flex my-2 justify-content-center align-items-center"><IoMdArrowDropright color="#00FFFF" size={24}/> Efective Communication</li>
+                            <li className="flex my-2 justify-content-center align-items-center"><IoMdArrowDropright color="#00FFFF" size={24}/> Creativity</li>
+                            <li className="flex my-2 justify-content-center align-items-center"><IoMdArrowDropright color="#00FFFF" size={24}/> Leadership and Teamwork</li>
+                            <li className="flex my-2 justify-content-center align-items-center"><IoMdArrowDropright color="#00FFFF" size={24}/> Time Management</li>
                         </ul>
                     </div>
                 </div>
