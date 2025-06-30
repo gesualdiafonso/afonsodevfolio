@@ -167,7 +167,7 @@ const ProjectInfo: ProjectsProp[] = [
             "react",
             "nodejs"
         ],
-        link: "https://lexus-app.vercel.app",
+        link: "https://funerariapaulinho.vercel.app/",
         restricted: true
     },
 ];
