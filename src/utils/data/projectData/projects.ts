@@ -64,7 +64,7 @@ const ProjectInfo: ProjectsProp[] = [
             "figma",
             "html",
         ],
-        link: "https://space-animated-vue.vercel.app"
+        link: "https://vida-plus-sepia.vercel.app/"
     },
     {
         title: "Van Gogh App Vue Progressive Web Application",
