@@ -11,6 +11,96 @@ export interface ProjectsProp {
 
 const ProjectInfo: ProjectsProp[] = [
     {
+        title: "Malba Gallery E-commerce",
+        setings: [
+            "E-commerce, Web Design, Web Page Institucional",
+            "Web Page Institucional & E-commerce"
+        ],
+        description: "Built a full system with native PHP, JavaScript, and CSS. Developed custom routing and data logic, separating front-end from back-end cleanly. Delivered a robust web application from scratch with no frameworks, demonstrating deep understanding of raw web tech",
+        image: "/assets/Mockups/mockup-malbagallery.png",
+        technologies: [
+            "php",
+            "mysql",
+            "uikit",
+            "css",
+            "js",
+            "html",
+        ],
+        link: "https://malbagallery.onrender.com"
+    },
+    {
+        title: "E-commerce Liga Cosmic",
+        setings: [
+            "E-commerce, Web Design, Web Page Institucional",
+            "E-commerce Web & Page Institucional"
+        ],
+        description: "Built a full system with native PHP, JavaScript, and CSS. Developed custom routing and data logic, separating front-end from back-end cleanly. Delivered a robust web application from scratch with no frameworks, demonstrating deep understanding of raw web tech.",
+        image: "/assets/Mockups/mockup-ligacosmic.png",
+        technologies: [
+            "php",
+            "mysql",
+            "bootstrap",
+            "css",
+            "js",
+            "html",
+        ],
+        link: "https://liga-cosmic.onrender.com"
+    },
+    {
+        title: "Vida Plus Group",
+        setings: [
+            "Institucional Page, Web Design",
+            "Web Design Institucional Page"
+        ],
+        description: "Used Next.js (App Router), React, TypeScript, TailwindCSS and Node.js to create a scalable, SEO-optimized site. Focused on performance and accessible UX. Delivered a modern and modular digital experience.",
+        image: "/assets/Mockups/mockup-vidaplus.png",
+        technologies: [
+            "nextjs",
+            "nodejs",
+            "typescript",
+            "tailwindcss",
+            "python",
+            "react",
+            "figma",
+            "html",
+        ],
+        link: "https://space-animated-vue.vercel.app"
+    },
+    {
+        title: "Van Gogh App Vue Progressive Web Application",
+        setings: [
+            "Progressive Web Application, Web Design, VueJS",
+            "VueJS Progressive Web Application"
+        ],
+        description: "Progressive Web App using Vue 3, Vue Router, Service Workers and Bootstrap. Enabled oﬄine mode, push notifications, and installability. Full PWA stack integration achieved with optimized performance.",
+        image: "/assets/Mockups/mockup-vangogh.png",
+        technologies: [
+            "vuejs",
+            "pwa",
+            "nodejs",
+            "js",
+            "bootstrap",
+            "html",
+        ],
+        link: "https://app-vue-vangogh.vercel.app/"
+    },
+    {
+        title: "Space Animated 3D, in Vue,JS",
+        setings: [
+            "Page Animated, WebGraphic Design, 3D",
+            "Web Graphic Design"
+        ],
+        description: "Created a 3D space visualization using Three.js, Vue 3 and TypeScript. Overcame technical challenges integrating WebGL and reactive UI logic, including scene controls, lighting and smooth animations.",
+        image: "/assets/Mockups/mockup-space.jpg",
+        technologies: [
+            "threejs",
+            "vuejs",
+            "nodejs",
+            "typescript",
+        ],
+        link: "https://space-animated-vue.vercel.app"
+    },
+    {
         title: "Lexus Coupe App",
         setings: [
             "Landing Page Promotional",

@@ -9,8 +9,10 @@ import { JSX } from "react";
 
 import Container from "@/components/container/index";
 import { ProjectsProp } from "@/utils/data/projectData/projects";
-import { FaFigma, FaReact, FaNodeJs, FaJs, FaSass, FaHtml5, FaCss3Alt, FaBootstrap } from "react-icons/fa";
-import { SiTypescript, SiAdobe } from "react-icons/si";
+import { FaFigma, FaReact, FaNodeJs, FaJs, FaSass, FaHtml5, FaCss3Alt, FaBootstrap, FaPhp, FaUikit, FaPython, FaVuejs,   } from "react-icons/fa";
+import { IoLogoPwa } from "react-icons/io5";
+import { TbBrandThreejs } from "react-icons/tb";
+import { SiTypescript, SiAdobe, SiMysql, SiNextdotjs, SiTailwindcss } from "react-icons/si";
 import Image from "next/image";
 
 interface ProjectCarouselProps {
@@ -27,7 +29,17 @@ const iconMap: { [key: string]: JSX.Element } = {
     css: <FaCss3Alt className="text-[#00ff99] text-2xl" />,
     bootstrap: <FaBootstrap className="text-[#00ff99] text-2xl" />,
     typescript: <SiTypescript className="text-[#00ff99] text-2xl" />,
-    adobe: <SiAdobe className="text-[#00ff99] text-2xl" />
+    adobe: <SiAdobe className="text-[#00ff99] text-2xl" />,
+    php: <FaPhp className="text-[#00ff99] text-2xl" />,
+    uikit: <FaUikit className="text-[#00ff99] text-2xl" />,
+    python: <FaPython className="text-[#00ff99] text-2xl" />,
+    mysql: <SiMysql className="text-[#00ff99] text-2xl" />,
+    vuejs: <FaVuejs className="text-[#00ff99] text-2xl" />,
+    threejs: <TbBrandThreejs className="text-[#00ff99] text-2xl" />,
+    pwa: <IoLogoPwa className="text-[#00ff99] text-2xl" />,
+    nextjs: <SiNextdotjs className="text-[#00ff99] text-2xl" />,
+    tailwindcss: <SiTailwindcss className="text-[#00ff99] text-2xl" />,
+    
 };
 
 export default function ProjectCarousel({ data }: ProjectCarouselProps) {
