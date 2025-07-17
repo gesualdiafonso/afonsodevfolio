@@ -89,7 +89,7 @@ export default function Contact(){
             <Container>
                 <div className="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
                     <div className="w-full px-5 flex flex-col justify-center">
-                        <span className="text-xs text-center lg:text-xl text-[#00ccff] uppercase font-bold">How about we have a chat?</span>
+                        <h1 className="text-xs text-center lg:text-xl text-[#00ccff] uppercase font-bold">How about we have a chat?</h1>
                         <h2 className="text-xl lg:text-3xl text-[#00fbff] mb-5 text-center">Shall we create something amazing together?</h2>
                         <p className="lg:text-xl md:text-center md:p-5">Turn your ideas into reality with innovative design, cutting-edge technology, and creative strategies that will make your brand stand out. Shall we start creating something unique and impactful?</p>
                         <div className="m5-5">

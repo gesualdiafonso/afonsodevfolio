@@ -78,7 +78,7 @@ export default function Education() {
 
     return(
         <main>
-            <h1 className="text-white text-2xl lg:text-4xl font-bold my-10 text-center">Habilidades</h1>
+            <h1 className="text-white text-2xl lg:text-4xl font-bold my-10 text-center">Skills</h1>
             <TechCarousel />
             <Container>
                 <div className="flex flex-col items-center justify-center">
