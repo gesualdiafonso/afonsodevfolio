@@ -40,7 +40,7 @@ export default function About() {
                         <div className="absolute bottom-2 right-2 w-10 h-10 bg-[#8A2BE2] blur-lg opacity-50 animate-pulse"></div>
                         </span>
                     </Link>
-                    <a href="/assets/CV-Afonso-Web.pdf" download="Curriculo_Afonso.pdf">
+                    <a href="/assets/cv-fullstack-wev-afonso.pdf" download="Curriculo_Afonso.pdf">
                         <button className="relative flex items-center gap-2 px-6 py-3 text-lg font-bold text-[#00FFFF] uppercase tracking-widest bg-[#8A2BE2] border-2 border-[#00FFFF] rounded-lg shadow-[0px_0px_10px_#8A2BE2] transition-all duration-500 overflow-hidden group hover:shadow-[0px_0px_20px_#8A2BE2,0px_0px_40px_#00FFFF] hover:text-[#8A2BE2] hover:bg-[#00FFFF]">
                             <span className="absolute w-0 h-0 bg-[#00FFFF] opacity-20 group-hover:w-full group-hover:h-full transition-all duration-500"></span>
 
