@@ -9,10 +9,10 @@ import { JSX } from "react";
 
 import Container from "@/components/container/index";
 import { ProjectsProp } from "@/utils/data/projectData/projects";
-import { FaFigma, FaReact, FaNodeJs, FaJs, FaSass, FaHtml5, FaCss3Alt, FaBootstrap, FaPhp, FaUikit, FaPython, FaVuejs,   } from "react-icons/fa";
+import { FaFigma, FaReact, FaNodeJs, FaJs, FaSass, FaHtml5, FaCss3Alt, FaBootstrap, FaPhp, FaUikit, FaPython, FaVuejs, FaLaravel  } from "react-icons/fa";
 import { IoLogoPwa } from "react-icons/io5";
 import { TbBrandThreejs } from "react-icons/tb";
-import { SiTypescript, SiAdobe, SiMysql, SiNextdotjs, SiTailwindcss } from "react-icons/si";
+import { SiTypescript, SiAdobe, SiMysql, SiNextdotjs, SiTailwindcss, SiVuetify } from "react-icons/si";
 import Image from "next/image";
 
 interface ProjectCarouselProps {
@@ -39,7 +39,8 @@ const iconMap: { [key: string]: JSX.Element } = {
     pwa: <IoLogoPwa className="text-[#00ff99] text-2xl" />,
     nextjs: <SiNextdotjs className="text-[#00ff99] text-2xl" />,
     tailwindcss: <SiTailwindcss className="text-[#00ff99] text-2xl" />,
-    
+    laravel: <FaLaravel className="text-[#00ff99] text-2xl" />,
+    vuetify: <SiVuetify className="text-[#00ff99] text-2xl" />,
 };
 
 export default function ProjectCarousel({ data }: ProjectCarouselProps) {

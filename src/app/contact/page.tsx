@@ -20,7 +20,7 @@ const countries = [
     { name: "Uruguai", code: "+598" },
     { name: "Paraguai", code: "+595" },
     { name: "Bolívia", code: "+591" },
-    
+
 ]
 
 interface FormData {

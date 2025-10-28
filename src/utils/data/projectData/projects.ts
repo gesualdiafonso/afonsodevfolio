@@ -11,6 +11,44 @@ export interface ProjectsProp {
 
 const ProjectInfo: ProjectsProp[] = [
     {
+        title: "Éclat E-commerce Website",
+        setings: [
+            "E-commerce, Electronic Service",
+            "Online Store Development"
+        ],
+        description: "Full e-commerce platform built with Laravel and MySQL, featuring authentication, dynamic shopping cart, and admin dashboard. The main challenge was optimizing the checkout flow and ensuring high performance under multiple real-time requests.",
+        image: "/assets/Mockups/eclat.png",
+        technologies: [
+            "laravel",
+            "php",
+            "nodejs",
+            "mysql",
+            "tailwindcss",
+            "js",
+            "html",
+        ],
+        link: "https://github.com/gesualdiafonso/eclat.git"
+    },
+    {
+        title: "Movie Review Website",
+        setings: [
+            "Film Review System, CRUD Application",
+            "Web Application Development"
+        ],
+        description: "Movie review platform developed with Vue.js and Vite. Designed a seamless interface with API integration for dynamic data rendering and implemented a complete CRUD system for managing films and user reviews efficiently.",
+        image: "/assets/Mockups/moviereview.jpeg",
+        technologies: [
+            "php",
+            "vuejs",
+            "tailwindcss",
+            "vuetify",
+            "nodejs",
+            "vite",
+            "js",
+        ],
+        link: "https://github.com/gesualdiafonso/P-Final-ADM-ARRUDA_AFONSO.git"
+    },    
+    {
         title: "Malba Gallery E-commerce",
         setings: [
             "E-commerce, Web Design, Web Page Institucional",
